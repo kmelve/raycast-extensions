@@ -2,9 +2,12 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "sanity",
   "title": "Sanity",
-  "description": "Quickly search for Sanity projects you have access to",
+  "description": "Interact with your Sanity projects",
   "icon": "sanity-icon.png",
   "author": "marcusforsberg",
+  "contributors": [
+    "kmelve"
+  ],
   "categories": [
     "Developer Tools",
     "Web",
@@ -13,9 +16,9 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "search-projects",
+      "name": "sanity-extension",
       "title": "Search Projects",
-      "description": "Quickly search for Sanity projects you have access to",
+      "description": "Quickly search for and interact with Sanity projects you have access to",
       "mode": "view"
     }
   ],
