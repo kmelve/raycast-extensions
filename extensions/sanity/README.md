@@ -4,13 +4,13 @@ Quickly search and interact with your Sanity projects.
 
 ## Setup
 
-To use this extension, make sure you're logged into the Sanity CLI. Run the following in your shell:
+This extension leverages the same authentication as your Sanity CLI. To log in on your computer, run the following in your command line interface (requires you to have [Node.js installed](https://nodejs.org/en)):
 
-```bash
+```sh
 npx sanity login
 ```
 
-## Features
+## Features:
 
 - List all projects you have access to:
   - Copy Project ID
